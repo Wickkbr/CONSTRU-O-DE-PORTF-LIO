@@ -1,0 +1,138 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Prociono", serif;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+.dark-mode {
+    background-color: #121212; 
+    color: #ffffff; 
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000; 
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+
+header {
+    background-color: #f0f0f0;
+    padding: 1px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 100px 20px;
+    min-height: 100vh;
+}
+
+#projetos {
+    
+    text-align: center;
+}
+
+#sobre {
+    text-align: center;
+    font-size: x-large;
+}
+
+#contato {
+    text-align: center;
+}
+
+img {
+    max-width: 200%;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+header img {
+    align-self: center;
+}
+
+.footer {
+    background-color: white;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+
+.footer .navigation {
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+.footer .navigation a {
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer .copyright {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #eee;
+
+}
